@@ -45,7 +45,7 @@ exports.onInitialClientRender = (_, options) => {
         wait = true
         setTimeout(function() {
           wait = false
-        }, 10)
+        }, 50)
       }
     }
 
@@ -62,7 +62,7 @@ exports.onInitialClientRender = (_, options) => {
         wait = true
         setTimeout(function() {
           wait = false
-        }, 10)
+        }, 50)
       }
     }
 
