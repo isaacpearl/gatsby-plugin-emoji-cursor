@@ -7,7 +7,7 @@ exports.onInitialClientRender = (_, options) => {
    */
 
   ;(function emojiCursor() {
-    var possibleEmoji = options.emoji ? options.emoji : ['🐖']
+    var possibleEmoji = options.emoji ? options.emoji : ['']
     var width = window.innerWidth
     var height = window.innerHeight
     var cursor = { x: width / 2, y: width / 2 }
@@ -45,7 +45,7 @@ exports.onInitialClientRender = (_, options) => {
         wait = true
         setTimeout(function() {
           wait = false
-        }, 200)
+        }, 50)
       }
     }
 
